@@ -30,7 +30,7 @@ public class IntegerSorts {
         int[] mass1 = new int[q - p + 1];
         int[] mass2 = new int[r - q + 1];
         /*
-            Краевые верзние значения, которые не должны попасть в результирующий массив.
+            Краевые верхние значения, которые не должны попасть в результирующий массив.
          */
         mass1[mass1.length - 1] = Integer.MAX_VALUE;
         mass2[mass2.length - 1] = Integer.MAX_VALUE;
